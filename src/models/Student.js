@@ -9,7 +9,7 @@ const StudentSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  phonNumber: {
+  phoneNumber: {
     type: Number,
     required: true
   },
