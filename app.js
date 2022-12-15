@@ -10,6 +10,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use(require('./src/routes/student-route'))
+app.use(require('./src/routes/teacher-route'))
 
 app.get('/', (req, res) => {
   res.status(200)
